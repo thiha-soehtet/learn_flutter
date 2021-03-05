@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_catelog/widgets/scaffold.dart';
+import 'package:flutter_catelog/lists/expansion_title.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyScaffold(title: 'Flutter Catelog'),
+      home: MyExpansionTitle(),
     );
   }
 }
